@@ -26,7 +26,7 @@ export default function Pricing() {
         
 
         {/* Container for 4 cards */}
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex text-black flex-wrap justify-center gap-6">
           {/* Card 1 */}
           <div className="bg-gray-100 w-[260px] rounded-sm p-4">
             <h1 className="bg-cyan-600 text-white text-2xl text-center py-3 rounded">

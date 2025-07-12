@@ -67,11 +67,11 @@ export default function NooraniQaidaCourse() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white ">
+            <h2 className="font-semibold text-xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Quran Tafseer Course Online- Tafseer Course in USA, UK & Canada
             </h2>
-            <p className="text-xl text-nowrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="text-base lg:text-xl text-wrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Learn Quran Tafseer Course Online with expert scholars. Flexible,
               interactive courses in English for USA, UK, and Canada. Enroll
               now!
@@ -113,7 +113,7 @@ export default function NooraniQaidaCourse() {
             Why Choose Our Quran Tafseer Course Online?
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Comprehensive Learning: Gain an in-depth understanding of the
               Quranic verses (ayahs) with a detailed analysis of their context
@@ -141,7 +141,7 @@ export default function NooraniQaidaCourse() {
             Key Features of the Quran Tafseer Course Online
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Language Flexibility: Learn Quran Tafseer in English to make the
               content accessible for students in the USA, UK, and Canada.
@@ -165,7 +165,7 @@ export default function NooraniQaidaCourse() {
             Who Is This Course For?
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Students seeking a detailed understanding of Tafseer-ul-Quran.
             </li>
@@ -178,12 +178,12 @@ export default function NooraniQaidaCourse() {
             </li>
           </ul>
 
-          <button className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -221,7 +221,7 @@ export default function NooraniQaidaCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Accessibility: Learn from the comfort of your home, no matter
                   where you are in the world.
@@ -240,7 +240,7 @@ export default function NooraniQaidaCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 Benefits of Quran Tafseer Course
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Accessibility: Learn from the comfort of your home, no matter
                   where you are in the world.
@@ -315,7 +315,7 @@ export default function NooraniQaidaCourse() {
             Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
             Academy
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+          <div className="grid text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             {features.map((feature, i) => (
               <div
                 key={i}
@@ -334,13 +334,13 @@ export default function NooraniQaidaCourse() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>
@@ -351,7 +351,7 @@ export default function NooraniQaidaCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

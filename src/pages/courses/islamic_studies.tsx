@@ -56,15 +56,15 @@ export default function IslamicStudiesCourse() {
   return (
 <div className="w-full mx-0 p-1">
 
-     <div className="relative rounded-md w-full h-[320px] bg-cover bg-center" style={{ backgroundImage: "url('/books.jpg')" }}>
-          <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-           <div className="text-white max-w-xl">
-              <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+     <div className="relative  rounded-md w-full h-[320px] bg-cover bg-center" style={{ backgroundImage: "url('/books.jpg')" }}>
+          <div className="absolute inset-0    bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
+           <div className="text-white ">
+              <h2 className="font-semibold lg:text-3xl  text-xl text-wrap font-serif text-yellow-300 lg:pt-4 pt-0 lg:text-left px-4 lg:px-24">
                 Islamic Studies Course at Darul Ilm Online Quran Academy
               </h2>
-              <p className="text-xl text-nowrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
-               Join the Islamic Studies Course at Darul Ilm Online Quran Academy. Learn Quran,<br/> Hadith, Fiqh, 
-               and more with expert scholars. Flexible online<br/> courses for students in the USA, UK, 
+              <p className="lg:text-xl text-base text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+               Join the Islamic Studies Course at Darul Ilm Online Quran Academy. Learn Quran, Hadith, Fiqh, 
+               and more with expert scholars. Flexible online courses for students in the USA, UK, 
                and Canada. Enroll now!
               </p>
            </div>
@@ -87,7 +87,7 @@ export default function IslamicStudiesCourse() {
                </p>
               <h1 className="text-2xl text-cyan-500 font-bold my-6">Who Can Benefit from Our Islamic Studies Classes?</h1> 
            
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                                 <li>Students: Ideal for those pursuing academic excellence in Islamic studies.</li>
                                 <li>Professionals: Gain insights into Islamic teachings that can guide professional ethics and decision-making.</li>
                                 <li>Families: Equip yourself and your family with knowledge about Islamic values and traditions.</li>
@@ -97,7 +97,7 @@ export default function IslamicStudiesCourse() {
          
                <h1 className="text-2xl text-cyan-500 font-bold my-6">Key Features of Our Online Islamic Courses</h1> 
 
-                <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+                <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                                 <li>Quran Learning Online: Master the teachings of the Quran with in-depth tafseer and tajweed lessons.</li>
                                 <li>Comprehensive Curriculum: Includes core Islamic studies, such as Aqeedah (Islamic creed), Seerah<br/> (biography of Prophet Muhammad PBUH), and Shariah.</li>
                                 <li>Free Resources: Access free online Islamic courses with certificates for eligible students.</li>
@@ -107,7 +107,7 @@ export default function IslamicStudiesCourse() {
               
      
 
-               <button  className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">Get Enrolled Now</button>
+               <button  className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">Get Enrolled Now</button>
 
                
         </div>
@@ -115,7 +115,7 @@ export default function IslamicStudiesCourse() {
       
 
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
               <p className="text-lg mb-4"><b>Class Type:</b> One-one Classes</p>
 
               <p className="text-lg  mb-4"><b>Class Duration:</b>  30 Minutes Per Student</p>
@@ -142,7 +142,7 @@ export default function IslamicStudiesCourse() {
                     <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
                        <div className="mx-2 text-start">
                           <p className="text-cyan-500 font-semibold text-lg">What You Will Learn In This Course?</p>
-                           <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+                           <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                                 <li>Accessibility: Learn from the comfort of your home, no matter where you are in the world.</li>
                                 <li>Read Quranic Verses with Proper Pronunciation</li>
                                 <li>Understand and Apply Tajweed Rules</li>
@@ -158,7 +158,7 @@ export default function IslamicStudiesCourse() {
                       <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 bg-white p-4 rounded-md">
                        <div className="mx-2  text-start">
                           <p className="text-cyan-500 font-semibold text-lg">What Makes Darul Ilm Online Quran Academy Different?</p>
-                           <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+                           <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                                 
                                 <li>Female Tutor For Girls: Our courses are budget-friendly <br/>with multiple pricing plans <br/>to accommodate families.</li>
                                 <li>Free Trial Classes: Once you complete your memorization, <br/> you can guide others as a tutor or scholar.</li>
@@ -208,7 +208,7 @@ export default function IslamicStudiesCourse() {
                 <h1 className="text-black text-3xl font-bold">
                   Why <span className="text-cyan-600">Darul Ilm Online Quran</span> Academy
                 </h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+                <div className="grid text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                   {features.map((feature, i) => (
                     <div key={i} className="flex items-center shadow-2xl bg-white p-4 rounded-md">
                       <div className="mr-4">{feature.icon}</div>
@@ -226,11 +226,11 @@ export default function IslamicStudiesCourse() {
 
   <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both students and teachers. All personal information is treated as confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>How Long Will It Take to Learn Quran, Arabic, or Islamic Studies?</li>
@@ -239,7 +239,7 @@ export default function IslamicStudiesCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">Male & Female Teachers Are Available</p>
           <form className="space-y-4">
             <input type="text" placeholder="Your Name" className="w-full border border-gray-300 rounded-md p-3" />

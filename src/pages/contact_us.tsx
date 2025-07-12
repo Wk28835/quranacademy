@@ -14,7 +14,7 @@ export default function Contact() {
 
     {/* Welcome Text */}
     <div className="text-white mx-auto max-w-xl">
-      <h2 className="font-semibold text-3xl font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+      <h2 className="font-semibold text-2xl lg:text-3xl mt-20 font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
         CONTACT US
       </h2>
      
@@ -26,7 +26,7 @@ export default function Contact() {
 
 
       <div className="pt-12">
-        <h1 className="px-2 text-5xl text-center text-cyan-600 font-bold">Learn the Quran Verse by Verse with Us</h1>
+        <h1 className="px-2 text-3xl lg:text-5xl text-center text-cyan-600 font-bold">Learn the Quran Verse by Verse with Us</h1>
           <div className="bg-yellow-400 w-1/5  h-1 m-5 mx-auto"></div>
        <h2 className="px-2 text-xl text-center text-gray-700 font-serif">Contact us by phone or complete the form, and we’ll get in touch with you shortly.</h2>   
       </div>
@@ -36,7 +36,7 @@ export default function Contact() {
  <div className="flex flex-wrap justify-center gap-8 px-4 mt-10 ">
         {/* form */}
          <div className="bg-white shadow-sm shadow-cyan-400 hover:shadow-lg hover:shadow-cyan-500 rounded-md p-6 w-full md:w-[600px]">
-          <h1 className="mb-4 text-center font-serif font-semibold text-3xl">Get Free Trial Classes</h1>
+          <h1 className="mb-4 text-black text-center font-serif font-semibold text-3xl">Get Free Trial Classes</h1>
           <p className="text-center mb-6 text-gray-700">
             Trial Class at Darul Ilm Online Quran Academy Now!
           </p>
@@ -79,23 +79,23 @@ export default function Contact() {
         
         
     <div className="bg-white shadow-sm rounded-md p-6 w-full md:w-[600px] shadow-cyan-400 hover:shadow-lg hover:shadow-cyan-500">
-          <h1 className="mb-4 font-bold text-2xl">Contact Info</h1>
+          <h1 className="mb-4 text-black font-bold text-2xl">Contact Info</h1>
          <div className="flex">
           <MdPhone className="text-cyan-600 text-2xl mx-2" />
-          <h2 className="text-justify text-xl font-bold mb-1 text-cyan-600">USA CONTACT</h2>
+          <h2 className="text-justify text-lg font-bold mb-1 text-cyan-600">USA CONTACT</h2>
         </div>
-          <p className=" pl-10 text-xl text-gray-700 font-bold">+ 1 512 576 7126</p>
+          <p className=" pl-10 text-lg text-gray-700 font-bold">+ 1 512 576 7126</p>
         <div className="flex mt-2">
           <MdPhone className="text-cyan-600 text-2xl mx-2" />
-          <h2 className=" text-justify text-xl font-bold mb-1 text-cyan-600">UK CONTACT</h2>
+          <h2 className=" text-justify text-lg font-bold mb-1 text-cyan-600">UK CONTACT</h2>
         </div>
-          <p className=" pl-10 text-xl text-gray-700 font-bold">+44 7808 715763</p>
+          <p className=" pl-10 text-lg text-gray-700 font-bold">+44 7808 715763</p>
 
           <div className="flex mt-2">
             <MdEmail className="text-cyan-600 mx-2 text-2xl" />      
-            <h2 className="text-justify text-xl font-bold mb-1 text-cyan-600">Email</h2>
+            <h2 className="text-justify text-lg font-bold mb-1 text-cyan-600">Email</h2>
             </div>
-            <p className=" pl-10 text-xl text-gray-700 font-bold">info@darulilmonlinequranacademy.com</p>
+            <p className=" lg:pl-10 pl-4 text-base text-gray-700 font-bold">info@darulilmonlinequranacademy.com</p>
         
     </div>
 

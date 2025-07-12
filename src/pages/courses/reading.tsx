@@ -67,11 +67,11 @@ export default function Reading() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white">
+            <h2 className="font-semibold lg:text-3xl text-2xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Quran Reading Course Online
             </h2>
-            <p className="text-xl text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="text-base lg:text-xl text-wrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Master Quran reading online with expert instructors at Darul Ilm
               Online Quran Academy. Flexible schedules, personalized lessons,
               and Tajweed mastery for kids and adults worldwide. Start your
@@ -127,7 +127,7 @@ export default function Reading() {
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -156,39 +156,33 @@ export default function Reading() {
             <b>Language:</b>English, Urdu, Hindi, Pashto
           </p>
 
-          <Image alt="image" width={400} height={50} src={"/enroll.jpg"} />
+          <Image alt="image" width={500} height={50} src={"/enroll.jpg"} />
 
-          <button
-            type="submit"
-            className="w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold"
-          >
-            Enrolled Now
-          </button>
+        
         </div>
 
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-4">
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-4 mt-10 px-4">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
-                <li>Master the Arabic Alphabet</li>
-                <li>Read Quranic Verses with Proper Pronunciation</li>
-                <li>Understand and Apply Tajweed Rules</li>
-                <li>Gain Understanding of Quranic Meanings and Tafseer</li>
-                <li>Receive Personalized Feedback for Improvement</li>
-                <li>Continue Your Quranic Learning Journey</li>
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
+                <li>Recognize Arabic letters in different shapes and sounds</li>
+                <li>Study the Makharij of letters</li>
+                <li>Understand the basic rules of Tajweed</li>
+                <li>Read the Quran with accurate pronunciation</li>
+                <li>Gain foundational Islamic knowledge</li>
               </ul>
             </div>
           </div>
 
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 bg-white p-4 rounded-md">
-            <div className="mx-2  text-start">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+            <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 Course Outline: Quran Reading Course
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>Module 1: Introduction to Quranic Studies</li>
                 <li>Module 2: Mastering the Arabic Alphabet</li>
                 <li>Module 3: Basic Quranic Reading Skills</li>
@@ -249,7 +243,7 @@ export default function Reading() {
         </div>
 
         {/* Why Academy Section */}
-        <div className="text-center mt-20 px-4">
+        <div className="text-center text-black mt-20 px-4">
           <h1 className="text-black text-3xl font-bold">
             Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
             Academy
@@ -273,13 +267,13 @@ export default function Reading() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>
@@ -290,7 +284,7 @@ export default function Reading() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

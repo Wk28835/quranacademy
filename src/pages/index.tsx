@@ -1,15 +1,6 @@
 import Image from "next/image";
-import {
-  FaCalendarAlt,
-  FaChalkboardTeacher,
-  FaHeadset,
-  FaCertificate,
-  FaRedoAlt,
-  FaMoneyCheckAlt,
-  FaUserFriends,
-  FaChartBar,
-  FaLanguage,
-} from "react-icons/fa";
+import { FaCalendarAlt, FaChalkboardTeacher, FaHeadset,FaCertificate,FaRedoAlt,
+  FaMoneyCheckAlt, FaUserFriends,FaChartBar,FaLanguage} from "react-icons/fa";
 
 export default function Home() {
   const features = [
@@ -63,50 +54,54 @@ export default function Home() {
   return (
     <div className="w-full px-2 sm:px-4">
       {/* Hero Section */}
-      <div
-        className="relative w-full h-auto min-h-[300px] lg:min-h-[450px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-cyan-400 bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row justify-between items-center px-4 sm:px-6 py-8 gap-6 sm:gap-5">
-          <div className="text-white w-full lg:max-w-xl text-center px-2 sm:px-0">
+      <div className="relative w-full  min-h-[500px] lg:min-h-[450px] bg-cover bg-center"
+        style={{ backgroundImage: "url('/bg.jpg')" }}>
+        <div className="absolute inset-0  bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row justify-between items-center px-4 sm:px-6 py-2 gap-2 sm:gap-5"
+        style={{backgroundColor:"#1AB0BA", opacity:"90%"}}>
+          <div className="text-white w-full lg:max-w-xl text-center px-2 sm:mx-0">
             <h2 className="font-semibold text-xl font-sans sm:text-2xl pt-2">
               Welcome to Darul Ilm Online Quran Academy
             </h2>
-            <h1 className="pt-3 sm:pt-4 font-bold font-serif text-2xl sm:text-3xl lg:text-4xl">
+            <h1 className="pt-1 sm:pt-4 text-white font-bold font-serif text-xl sm:text-3xl lg:text-4xl">
               Join Free Trial Classes
             </h1>
           </div>
 
-          <div className="w-full max-w-xs sm:max-w-md">
+          <div className="w-full lg:max-w-xs sm:max-w-md">
             <form className="space-y-2 sm:space-y-3">
               <input
+              style={{backgroundColor:"#1AB0BA"}}
                 type="text"
                 placeholder="Your Name"
-                className="w-full bg-cyan-400 border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
+                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
               />
               <input
+              style={{backgroundColor:"#1AB0BA", opacity:"90%"}}
                 type="email"
                 placeholder="Email Address"
-                className="w-full bg-cyan-400 border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
+                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
               />
               <input
+              style={{backgroundColor:"#1AB0BA", opacity:"90%"}}
                 type="text"
                 placeholder="Contact No"
-                className="w-full bg-cyan-400 border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
+                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
               />
               <input
+              style={{backgroundColor:"#1AB0BA", opacity:"90%"}}
                 type="text"
                 placeholder="Your Country"
-                className="w-full bg-cyan-400 border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
+                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
               />
               <textarea
+              style={{backgroundColor:"#1AB0BA", opacity:"90%"}}
                 rows={4}
                 placeholder="Your Message"
-                className="w-full bg-cyan-400 border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
+                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
               ></textarea>
               <button
                 type="submit"
-                className="w-full bg-white text-cyan-700 hover:bg-gray-100 font-semibold py-2 sm:py-3 rounded-md transition text-sm sm:text-base"
+                className="w-full bg-white text-black hover:bg-gray-100 font-semibold py-2 sm:py-3 rounded-md transition text-sm sm:text-base"
               >
                 Apply Now
               </button>
@@ -120,14 +115,14 @@ export default function Home() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">
           Explore Our Courses
         </h1>
-        <p className="pt-3  sm:pt-4 pb-4 sm:pb-6 text-sm sm:text-base md:text-lg">
+        <p className="pt-3  sm:pt-4 text-black pb-4 sm:pb-6 text-sm sm:text-base md:text-lg">
           Explore our online courses, including Noorani Qaida, Quran Reading,
           Tajweed, Tafseer, Memorization, Arabic Language, and Islamic Studies.
         </p>
       </div>
 
       {/* Courses Grid */}
-      <div className="grid grid-cols-1 mt-4 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+      <div className="grid grid-cols-1 text-black mt-4 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
         {[
           {
             img: "/norani_qaida.jpg",
@@ -165,14 +160,14 @@ export default function Home() {
             className="shadow-md hover:shadow-lg hover:shadow-cyan-500 shadow-cyan-400 border-2 rounded-md"
           >
             <Image
-              className="h-56 w-full object-cover"
+              className="h-56 w-full p-4 object-cover"
               src={course.img}
               alt="Course Image"
               width={400}
               height={200}
             />
             <div className="p-4">
-              <h2 className="font-bold text-xl mb-2">{course.title}</h2>
+              <h2 className="font-bold  text-xl mb-2">{course.title}</h2>
               <p className="text-sm text-justify text-gray-700">
                 {course.desc}
               </p>
@@ -188,7 +183,7 @@ export default function Home() {
           Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
           Academy
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
           {features.map((feature, i) => (
             <div
               key={i}
@@ -196,8 +191,8 @@ export default function Home() {
             >
               <div className="mr-4">{feature.icon}</div>
               <div className="ml-4 text-start">
-                <p className="font-semibold text-lg">{feature.title}</p>
-                <p className="text-sm text-gray-600">{feature.desc}</p>
+                <p className="font-semibold text-black text-lg">{feature.title}</p>
+                <p className="text-sm text-black">{feature.desc}</p>
               </div>
             </div>
           ))}
@@ -218,7 +213,7 @@ export default function Home() {
           ].map((pkg, idx) => (
             <div
               key={idx}
-              className="bg-gray-100 w-[260px] rounded-sm p-4 shadow"
+              className="bg-gray-100 text-black  w-[260px] rounded-sm p-4 shadow"
             >
               <h1 className="bg-cyan-600 text-white text-2xl text-center py-3 rounded">
                 {pkg.title}
@@ -236,7 +231,7 @@ export default function Home() {
       </div>
 
       {/* Terms and Trial Form */}
-      <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
+      <div className="flex text-black  flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white shadow-md p-6 w-full md:w-[600px] rounded-md">
           <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">

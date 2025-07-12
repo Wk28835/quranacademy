@@ -67,11 +67,11 @@ export default function NooraniQaidaCourse() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white ">
+            <h2 className="font-semibold text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Online Tajweed Course
             </h2>
-            <p className="text-xl text-nowrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="text-xl text-wrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Online Tajweed Course – Perfect Your Quran Recitation
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function NooraniQaidaCourse() {
             our course, you will:
           </p>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Learn Correct Pronunciation: Master the articulation points
               (makharij) and characteristics (sifaat) of Arabic letters.
@@ -142,7 +142,7 @@ export default function NooraniQaidaCourse() {
             Features of Our Online Tajweed Course
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>Theoretical foundations to understand Tajweed rules.</li>
             <li>Practical exercises to apply these rules during recitation.</li>
             <li>
@@ -154,7 +154,7 @@ export default function NooraniQaidaCourse() {
             How to Get Started
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>Fill out the registration form on our website.</li>
             <li>
               Schedule your free trial class to experience our teaching style..
@@ -165,12 +165,12 @@ export default function NooraniQaidaCourse() {
             </li>
           </ul>
 
-          <button className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -208,7 +208,7 @@ export default function NooraniQaidaCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Accessibility: Learn from the comfort of your home, no matter
                   where you are in the world.
@@ -227,7 +227,7 @@ export default function NooraniQaidaCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 Course Outline: Quran Reading Course
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Cost-Effective: Save time and resources with our affordable
                   online classes.
@@ -306,7 +306,7 @@ export default function NooraniQaidaCourse() {
             Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
             Academy
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+          <div className="grid text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             {features.map((feature, i) => (
               <div
                 key={i}
@@ -325,13 +325,13 @@ export default function NooraniQaidaCourse() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>
@@ -342,7 +342,7 @@ export default function NooraniQaidaCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

@@ -67,13 +67,13 @@ export default function NooraniQaidaCourse() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white ">
+            <h2 className="font-semibold text-2xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Learn Noorani Qaida Online
             </h2>
-            <p className="text-xl text-nowrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="text-xl text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Learn Online Noorani Qaida Course with expert tutors.
-              <br /> Join our flexible Quran classes to master Noorani Qaida
+               Join our flexible Quran classes to master Noorani Qaida
               with Tajweed in Urdu, Arabic, and English.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function NooraniQaidaCourse() {
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -161,16 +161,16 @@ export default function NooraniQaidaCourse() {
             <b>Language:</b>English, Urdu, Hindi, Pashto
           </p>
 
-          <Image alt="image" width={400} height={50} src={"/enroll.jpg"} />
+          <Image className="w-full" alt="image" width={400} height={50} src={"/enroll.jpg"} />
         </div>
 
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-4">
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-2">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap mt-4 space-y-2 text-gray-800">
                 <li>Recognize Arabic letters in different shapes and sounds</li>
                 <li>Study the Makharij of letters</li>
                 <li>Understand the basic rules of Tajweed</li>
@@ -180,22 +180,17 @@ export default function NooraniQaidaCourse() {
             </div>
           </div>
 
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 bg-white p-4 rounded-md">
-            <div className="mx-2  text-start">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+            <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
-                What You Will Learn In This Course?
+                Noorani Qaida Course Outline:
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap mt-4 space-y-2 text-gray-800">
                 <li>Learn the shapes of Arabic alphabets</li>
-                <li>
-                  Understand Compound Letters (Huroof e Murakkabat) and Harakaat
-                </li>
+                <li>Understand Compound Letters (Huroof e Murakkabat) and Harakaat</li>
                 <li>Study Standing Movements (Vertical Harakaat)</li>
                 <li>Explore Maddah Letters, Leen Letters, and Sukoon (Jazm)</li>
-                <li>
-                  Learn the Rules of Noon Sakin, Meem Sakin, and Waqf (Rules of
-                  Stop
-                </li>
+                <li>Learn the Rules of Noon Sakin, Meem Sakin, and Waqf (Rules of Stop)</li>
               </ul>
             </div>
           </div>
@@ -243,7 +238,7 @@ export default function NooraniQaidaCourse() {
             Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
             Academy
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+          <div className="grid text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             {features.map((feature, i) => (
               <div
                 key={i}
@@ -261,8 +256,8 @@ export default function NooraniQaidaCourse() {
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
-        <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+        <div className="bg-white border-2 text-black border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
+          <h1 className="text-2xl font-bold text-black mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
@@ -279,7 +274,7 @@ export default function NooraniQaidaCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

@@ -67,13 +67,12 @@ export default function Memorization() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white ">
+            <h2 className="font-semibold text-xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Quran Memorization Online Course
             </h2>
-            <p className="text-xl text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
-              Join our online Quran memorization program to deepen your
-              understanding of the Quran and Islam.
+            <p className="text-base text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-10">
+              Join our online Quran memorization program to deepen your understanding of the Quran and Islam.
             </p>
           </div>
         </div>
@@ -96,7 +95,7 @@ export default function Memorization() {
             What You Will Learn In This Course?
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>Accurate Quran Memorization</li>
             <li>Mastering Tajweed Rules:</li>
             <li>Retention Techniques</li>
@@ -127,12 +126,12 @@ export default function Memorization() {
             or scholar.
           </p>
 
-          <button className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full  bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white  text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -163,12 +162,7 @@ export default function Memorization() {
 
           <Image alt="image" width={400} height={50} src={"/enroll.jpg"} />
 
-          <button
-            type="submit"
-            className="w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold"
-          >
-            Enrolled Now
-          </button>
+         
         </div>
 
         <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-4">
@@ -177,7 +171,7 @@ export default function Memorization() {
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>Master the Arabic Alphabet</li>
                 <li>Read Quranic Verses with Proper Pronunciation</li>
                 <li>Understand and Apply Tajweed Rules</li>
@@ -193,7 +187,7 @@ export default function Memorization() {
               <p className="text-cyan-500 font-semibold text-lg">
                 Course Outline: Quran Reading Course
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>Module 1: Introduction to Quranic Studies</li>
                 <li>Module 2: Mastering the Arabic Alphabet</li>
                 <li>Module 3: Basic Quranic Reading Skills</li>
@@ -259,7 +253,7 @@ export default function Memorization() {
             Why <span className="text-cyan-600">Darul Ilm Online Quran</span>{" "}
             Academy
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+          <div className="grid text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             {features.map((feature, i) => (
               <div
                 key={i}
@@ -278,13 +272,13 @@ export default function Memorization() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>
@@ -295,7 +289,7 @@ export default function Memorization() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

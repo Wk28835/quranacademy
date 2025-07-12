@@ -67,11 +67,11 @@ export default function ArabicCourse() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+          <div className="text-white ">
+            <h2 className="font-semibold lg:text-3xl text-xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Arabic Language Course
             </h2>
-            <p className="text-xl text-nowrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="lg:text-xl text-base text-wrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Join our Arabic Language Course Online to master conversational
               and written Arabic.
               <br /> Perfect for beginners, professionals, and travelers. Enroll
@@ -105,7 +105,7 @@ export default function ArabicCourse() {
             Why Choose Our Quran Tafseer Course Online?
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Flexible Online Learning: Study Arabic from the comfort of your
               home with our online Arabic classes
@@ -130,7 +130,7 @@ export default function ArabicCourse() {
             Key Features of Our Arabic Lessons
           </h1>
 
-          <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+          <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
               Arabic Lessons Online: Perfect for students who want to learn at
               their own pace and convenience.
@@ -161,12 +161,12 @@ export default function ArabicCourse() {
             and write Arabic fluently.
           </p>
 
-          <button className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
 
-        <div className="bg-white shadow-md p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
             <b>Class Type:</b> One-one Classes
           </p>
@@ -204,7 +204,7 @@ export default function ArabicCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Accessibility: Learn from the comfort of your home, no matter
                   where you are in the world.
@@ -223,7 +223,7 @@ export default function ArabicCourse() {
               <p className="text-cyan-500 font-semibold text-lg">
                 Benefits of Quran Tafseer Course
               </p>
-              <ul className="list-disc text-nowrap ml-6 mt-4 space-y-2 text-gray-800">
+              <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
                 <li>
                   Accessibility: Learn from the comfort of your home, no matter
                   where you are in the world.
@@ -317,13 +317,13 @@ export default function ArabicCourse() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-          <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
+          <h2 className="mt-6 text-black text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>
             <li>
@@ -334,7 +334,7 @@ export default function ArabicCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

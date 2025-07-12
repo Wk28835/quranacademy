@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* Logo on the left */}
         <div className="text-xl font-bold text-gray-800">
           <Link href="/">
-            <Image src="/logo.png" alt="Dar Ul Ilm" width={200} height={50} />
+            <Image src="/logo.png" alt="Dar Ul Ilm" width={100} height={20} />
           </Link>
         </div>
 
@@ -108,7 +108,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden mt-4 px-4">
+        <div className="md:hidden text-black mt-4 px-4">
           <ul className="flex flex-col space-y-3">
             <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
 

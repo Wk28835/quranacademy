@@ -54,12 +54,12 @@ export default function IslamicStudiesCourse() {
 
   
   return (
-<div className="w-full mx-0 p-1">
+<div className="w-full  mx-0 p-1">
 
-     <div className="relative  rounded-md w-full h-[320px] bg-cover bg-center" style={{ backgroundImage: "url('/books.jpg')" }}>
-          <div className="absolute inset-0    bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-           <div className="text-white ">
-              <h2 className="font-semibold lg:text-3xl  text-xl text-wrap font-serif text-yellow-300 lg:pt-4 pt-0 lg:text-left px-4 lg:px-24">
+     <div className="relative rounded-md w-full h-[320px] bg-cover bg-center" style={{ backgroundImage: "url('/books.jpg')" }}>
+          <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
+           <div className="text-white max-w-xl">
+              <h2 className="font-semibold text-3xl text-nowrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
                 Islamic Studies Course at Darul Ilm Online Quran Academy
               </h2>
               <p className="lg:text-xl text-base text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">

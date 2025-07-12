@@ -263,6 +263,7 @@ export default function NooraniQaidaCourse() {
             students and teachers. All personal information is treated as
             confidential.
           </p>
+          
           <h2 className="mt-6 text-xl font-bold">FAQ`&apos;`s</h2>
           <ul className="list-disc ml-6 mt-4 space-y-2 text-gray-800">
             <li>What Do I Need to Start?</li>

@@ -137,7 +137,7 @@ export default function Translate() {
             </li>
           </ul>
 
-          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>

@@ -67,7 +67,7 @@ export default function ArabicCourse() {
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
-          <div className="text-white ">
+          <div className="text-white max-w-xl">
             <h2 className="font-semibold lg:text-3xl text-xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
               Arabic Language Course
             </h2>
